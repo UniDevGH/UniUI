@@ -1,0 +1,178 @@
+/*按钮*/
+.uniui-button {
+    margin:5px 0px 5px 0px;
+	outline:none;
+	padding:10px;
+	border-width:0px;
+	border-radius:5px;
+	background:#1E90FF;
+	cursor:pointer;
+	color:white;
+}
+.uniui-button-round{
+    margin:5px 0px 5px 0px;
+  	outline:none;
+	padding:10px;
+	border-width:0px;
+	border-radius:180px;
+	background:#1E90FF;
+	cursor:pointer;
+	color:white;
+}
+.uniui-button-wide-1{
+    margin:5px 0px 5px 0px;
+    width:100%;
+    outline:none;
+	padding:10px;
+	border-width:0px;
+	border-radius:8px;
+	background:#1E90FF;
+	cursor:pointer;
+	color:white;
+}
+.uniui-button-wide-2{
+    margin:5px 0px 5px 0px;
+    width:100%;
+    outline:none;
+	padding:10px;
+	border-width:0px;
+	border-radius:180px;
+	background:#1E90FF;
+	cursor:pointer;
+	color:white;
+}
+.uniui-button2 {
+    margin:5px 0px 5px 0px;
+	outline:none;
+	padding:10px;
+	border: 1px solid #1E90FF;
+	border-radius:5px;
+	background:transparent;
+	cursor:pointer;
+	color:#1E90FF;
+}
+.uniui-button2-round{
+    margin:5px 0px 5px 0px;
+  	outline:none;
+	padding:10px;
+	border: 1px solid #1E90FF;
+	border-radius:180px;
+	background:transparent;
+	cursor:pointer;
+	color:#1E90FF;
+}
+.uniui-button2-wide-1{
+    margin:5px 0px 5px 0px;
+    width:100%;
+    outline:none;
+	padding:10px;
+	border: 1px solid #1E90FF;
+	border-radius:8px;
+	background:transparent;
+	cursor:pointer;
+	color:#1E90FF;
+}
+.uniui-button2-wide-2{
+    margin:5px 0px 5px 0px;
+    width:100%;
+    outline:none;
+	padding:10px;
+	border: 1px solid #1E90FF;
+	border-radius:180px;
+	background:transparent;
+	cursor:pointer;
+	color:#1E90FF;
+}
+/*涟漪*/
+.uniui-ripple {
+	position:relative;
+	overflow:hidden;
+}
+.uniui-ripple:after {
+	content:'';
+	display:block;
+	position:absolute;
+	width:100%;
+	height:95%;
+	top:0;
+	left:0;
+	pointer-events:none;
+	background-image:radial-gradient(circle,rgba(255,255,255,.5) 10%,transparent 10.01%);
+	background-repeat:no-repeat;
+	background-position:50%;
+	transform:scale(10,10);
+	opacity:0;
+	transition:transform .3s,opacity .5s;
+}
+.uniui-ripple:active:after {
+	transform:scale(0,0);
+	opacity:.3;
+	transition:0s;
+}
+/*超链接*/
+@media screen and (min-width:968px) {
+	.uniui-link {
+	position:relative;
+	text-decoration:none;
+}
+.uniui-link:before {
+	border-radius:8px;
+	content:"";
+	position:absolute;
+	left:50%;
+	bottom:-2px;
+	width:0;
+	height:2px;
+	background:#1E90FF;
+	transition:all .3s;
+	transition-timing-function:ease;
+	-webkit-transition-timing-function:ease;
+}
+.uniui-link:link {
+	color:#1E90FF;
+}
+.uniui-link:hover:before {
+	width:100%;
+	left:0;
+	right:0;
+}
+.uniui-link:visited {
+	color:#1E90FF;
+}
+}@media screen and (max-width:967px) {
+	.uniui-link {
+	position:relative;
+	text-decoration:none;
+}
+.uniui-link:before {
+	border-radius:8px;
+	content:"";
+	position:absolute;
+	left:50%;
+	bottom:-2px;
+	width:0;
+	height:2px;
+	background:#1E90FF;
+	transition:all .3s;
+	transition-timing-function:ease;
+	-webkit-transition-timing-function:ease;
+}
+.uniui-link:link {
+	color:#1E90FF;
+}
+.uniui-link:active:before {
+	width:100%;
+	left:0;
+	right:0;
+}
+.uniui-link:visited {
+	color:#1E90FF;
+}
+}
+/*代码框*/
+.uniui-code2{
+    width:100%;
+    overflow-x:scroll;
+    background-color:#282c35;
+    color:#abb3c0;
+    }
