@@ -1,6 +1,7 @@
 # UniUI
-[![Open sourced by Unidev](https://img.shields.io/static/v1?label=Open%20sourced%20by&message=Unidev%20Group&color=1e90ff)](https://github.com/UniDevGH)
-[![Open sourced by Unidev](https://img.shields.io/static/v1?label=Unidev%20Group&message=Xiehaoyu（瀧の三葉）&color=1e90ff)](https://nosoft.totp.gq)
+[![Open sourced by UnidevGroup](https://img.shields.io/static/v1?label=Open%20sourced%20by&message=Unidev%20Group&color=1e90ff)](https://github.com/UniDevGH)
+[![UnidevGroup Xiehaoyu（瀧の三葉）](https://img.shields.io/static/v1?label=Unidev%20Group&message=Xiehaoyu（瀧の三葉）&color=1e90ff)](https://nosoft.totp.gq)
+[![v1.0.0-beta](https://img.shields.io/static/v1?label=v1.0.0&message=beta&color=1e90ff)](https://github.com/UniDevGH/UniUI)
 ## 理念
 简洁，平面，小而全。
 ## 如何使用
